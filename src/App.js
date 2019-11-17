@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import store from './store';
@@ -11,7 +11,7 @@ import './app.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/'>
         <Provider store={store}>
           <div className="app">
             <AppHeader />
