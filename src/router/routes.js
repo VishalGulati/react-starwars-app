@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { loginRoute, searchRoute, searchDetailsRoute } from './route-constants';
 import Login from '../components/Login/Login';
 import Search from '../components/Search/Search';
@@ -7,13 +7,13 @@ import SearchDetails from '../components/Search/SearchDetails';
 
 // route config
 const routes = [
-  // {
-  //   path: '/',
-  //   component: Login,
-  //   pathMatch: 'full'
-  // },
   {
-    path: `/`,
+    path: '/',
+    component: Login,
+    exact: true
+  },
+  {
+    path: `/${loginRoute}`,
     component: Login
   },
   {
@@ -31,6 +31,7 @@ const routes = [
 const RouteWithSubRoutes = route => (
   <Route
     path={route.path}
+    exact={route.exact}
     render={props => (
       // pass the sub-routes down to keep nesting
       <route.component {...props} routes={route.routes} />
@@ -40,7 +41,9 @@ const RouteWithSubRoutes = route => (
 
 const CustomRoutes = () => (
   <main>
-    {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
+    <Switch>
+      {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
+    </Switch>
   </main>
 );
 
