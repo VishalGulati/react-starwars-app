@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone https://github.com/VishalGulati/react-starwars-app.git
 
 
-2. Then, install the dependencies in the root folder of app.
+2. Then, install the dependencies in the root folder of app, run:
 npm install
 
 
