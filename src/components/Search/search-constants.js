@@ -1,0 +1,3 @@
+export const SEARCH_ACTION = 'SEARCH';
+export const SEARCH_SUCCESS_ACTION = 'SEARCH_SUCCESS';
+export const SEARCH_FAIL_ACTION = 'SEARCH_FAIL';

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render Search properly 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="text-center page-header"
+  >
+    <h1>
+      Search
+    </h1>
+  </div>
+  <form
+    className=""
+  >
+    <div
+      className="form-group"
+    >
+      <div
+        className="col-sm-12"
+      >
+        <span
+          className="input-group"
+        >
+          <input
+            className="form-control"
+            id="formUsername"
+            onChange={[Function]}
+            placeholder="Enter search here ..."
+            type="text"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <span
+              className="glyphicon glyphicon-search"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </form>
+</div>
+`;

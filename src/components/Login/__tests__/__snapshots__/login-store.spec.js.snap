@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginStore send login action properly 1`] = `
+Object {
+  "data": null,
+  "error": null,
+  "isLoading": true,
+}
+`;

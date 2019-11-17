@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render Search Details properly 1`] = `
+<table
+  className="search-details table table-striped table-bordered table-condensed table-hover"
+>
+  <tbody>
+    <tr>
+      <td>
+        name
+      </td>
+      <td>
+        Tatooine
+      </td>
+    </tr>
+    <tr>
+      <td>
+        rotation_period
+      </td>
+      <td>
+        23
+      </td>
+    </tr>
+    <tr>
+      <td>
+        orbital_period
+      </td>
+      <td>
+        304
+      </td>
+    </tr>
+    <tr>
+      <td>
+        diameter
+      </td>
+      <td>
+        10465
+      </td>
+    </tr>
+    <tr>
+      <td>
+        climate
+      </td>
+      <td>
+        arid
+      </td>
+    </tr>
+    <tr>
+      <td>
+        gravity
+      </td>
+      <td>
+        1 standard
+      </td>
+    </tr>
+    <tr>
+      <td>
+        terrain
+      </td>
+      <td>
+        desert
+      </td>
+    </tr>
+    <tr>
+      <td>
+        surface_water
+      </td>
+      <td>
+        1
+      </td>
+    </tr>
+    <tr>
+      <td>
+        population
+      </td>
+      <td>
+        200000
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

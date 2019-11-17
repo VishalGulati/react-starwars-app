@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render Login properly 1`] = `
+<div
+  className="login"
+>
+  <div
+    className="text-center page-header"
+  >
+    <h1>
+       Login 
+    </h1>
+  </div>
+  <form
+    className="form-horizontal"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="col-sm-2 control-label"
+        htmlFor="formUsername"
+      >
+        Email
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="formUsername"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="col-sm-2 control-label"
+        htmlFor="form  Password"
+      >
+        Password
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="form  Password"
+          onChange={[Function]}
+          type="password"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="col-sm-10 col-sm-offset-2"
+      >
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="submit"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render Header properly 1`] = `
+<nav
+  className="navbar navbar-default"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="logo"
+          className="logo"
+          src="test-file-stub"
+        />
+      </a>
+    </div>
+    <ul
+      className="nav navbar-nav"
+      role={null}
+    >
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Star Wars
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="pull-right nav navbar-nav"
+      role={null}
+    >
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Logout
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
