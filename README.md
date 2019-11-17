@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Steps to run the application locally:
 
-1. Clone this repository.
+1. Clone this repository:
 git clone https://github.com/VishalGulati/react-starwars-app.git
 
 
