@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Ap is running live on: https://vishalgulati.github.io/react-starwars-app/
 
 ## Steps to run the application locally:
 
